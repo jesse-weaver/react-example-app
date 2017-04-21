@@ -13,9 +13,22 @@
   font-size: large;
 }
 
-.listItem {
+.itemContainer {
+  margin: auto;
+  width: 80%;
   text-align: left;
+}
+
+.itemList {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.itemRow {
   font-size: 14px;
-  color: black;
-  list-style-type: none;
+}
+
+.columnTitle {
+  font-size: 14px;
+  font-weight: bold;
 }

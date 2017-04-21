@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import DoveList from './DoveList';
+import FilterableItemList from './FilterableItemList';
 import './App.css';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
@@ -10,7 +11,7 @@ class App extends Component {
           <h2>The DoveBox</h2>
         </div>
         <div className="main-content">
-          <DoveList />
+          <FilterableItemList />
         </div>
       </div>
     );
